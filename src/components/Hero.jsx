@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate, useLocation } from "react-router-dom";
+import heroImage from "../assets/yashwant.jpeg";
 
 const Hero = () => {
 
@@ -95,7 +96,7 @@ const Hero = () => {
             " />
 
             <p className="font-medium text-gray-700">
-              Trusted by 5000+ Patients
+              Trusted by 100+ Patients
             </p>
 
           </motion.div>
@@ -200,7 +201,7 @@ const Hero = () => {
                 font-black
                 text-emerald-900
               ">
-                5000+
+                100+
               </h3>
 
               <p className="mt-2 text-gray-500">
@@ -273,7 +274,7 @@ const Hero = () => {
           >
 
             <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg"
+              src={heroImage}
               alt="Physiotherapy"
               className="
                 w-[500px]
@@ -297,7 +298,7 @@ const Hero = () => {
           </motion.div>
 
           {/* EXPERIENCE CARD */}
-          <motion.div
+          {/* <motion.div
             animate={{
               y: [0, -15, 0],
             }}
@@ -343,7 +344,7 @@ const Hero = () => {
                   font-black
                   text-emerald-900
                 ">
-                  12+
+                  2+
                 </h3>
 
                 <p className="text-gray-500">
@@ -354,10 +355,10 @@ const Hero = () => {
 
             </div>
 
-          </motion.div>
+          </motion.div> */}
 
           {/* DOCTOR CARD */}
-          <motion.div
+          {/* <motion.div
             animate={{
               y: [0, 15, 0],
             }}
@@ -445,10 +446,10 @@ const Hero = () => {
 
             </div>
 
-          </motion.div>
+          </motion.div> */}
 
           {/* RECOVERY CARD */}
-          <motion.div
+          {/* <motion.div
             animate={{
               y: [0, -20, 0],
             }}
@@ -498,10 +499,10 @@ const Hero = () => {
 
             </div>
 
-          </motion.div>
+          </motion.div> */}
 
           {/* APPOINTMENT CARD */}
-          <motion.div
+          {/* <motion.div
             animate={{
               y: [0, 10, 0],
             }}
@@ -560,7 +561,7 @@ const Hero = () => {
 
             </div>
 
-          </motion.div>
+          </motion.div> */}
 
         </div>
 

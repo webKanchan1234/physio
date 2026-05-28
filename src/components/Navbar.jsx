@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "../assets/pt.png";
 
 import {
   useNavigate,
@@ -75,17 +76,48 @@ const Navbar = () => {
       ">
 
         {/* LOGO */}
-        <h1
+        <div
           onClick={() => navigate("/")}
           className="
-            text-3xl
-            font-black
-            text-emerald-900
+            flex
+            items-center
+            gap-3
             cursor-pointer
           "
         >
-          PhysioCare
-        </h1>
+
+          <img
+            src={logo}
+            alt="Healing With Physio"
+            className="
+              w-14
+              h-14
+              object-contain
+            "
+          />
+
+          <div>
+
+            <h1 className="
+              text-2xl
+              font-black
+              text-emerald-900
+              leading-none
+            ">
+              Healing
+            </h1>
+
+            <p className="
+              text-sm
+              text-orange-400
+              font-medium
+            ">
+              With Physio
+            </p>
+
+          </div>
+
+        </div>
 
         {/* DESKTOP MENU */}
         <nav className="
@@ -112,7 +144,7 @@ const Navbar = () => {
 
           <button
             onClick={() => handleNavigation("team")}
-            className="hover:text-orange-400 transition"
+            className="hover:text-orange-400 transition cursor-pointer"
           >
             Team
           </button>

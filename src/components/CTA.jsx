@@ -17,7 +17,7 @@ const CTA = () => {
           Book your physiotherapy session today.
         </p>
 
-        <button onClick={() => navigate("/book-appointment")} className="mt-10 bg-orange-400 hover:bg-orange-500 transition px-10 py-5 rounded-full text-xl">
+        <button onClick={() => navigate("/book-appointment")} className="mt-10 bg-orange-400 hover:bg-orange-500 transition px-10 py-5 rounded-full text-xl cursor-pointer">
           Book Appointment
         </button>
       </div>

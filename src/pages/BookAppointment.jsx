@@ -31,10 +31,10 @@ const BookAppointment = () => {
     try {
 
       await emailjs.send(
-        "service_mrt1jp4",
-        "template_qwf0uua",
+        "service_ku577ju",
+        "template_ptfr96i",
         formData,
-        "NVKRt_3hHMhPQ4_Dg"
+        "lrmOmKcOJ_wKcmB4y"
       );
 
       alert("Appointment Booked Successfully!");
