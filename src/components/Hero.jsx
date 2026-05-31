@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate, useLocation } from "react-router-dom";
-import heroImage from "../assets/yashwant.jpeg";
+import heroImage from "../assets/doctor.jpeg";
 
 const Hero = () => {
 
@@ -274,16 +274,15 @@ const Hero = () => {
           >
 
             <img
-              src={heroImage}
-              alt="Physiotherapy"
-              className="
-                w-[500px]
-                h-[650px]
-                object-cover
-                rounded-[40px]
-                shadow-[0_30px_100px_rgba(0,0,0,0.18)]
-              "
-            />
+  src={heroImage}
+  alt="Home Physiotherapy"
+  className="
+    w-full
+    h-[650px]
+    object-cover
+    rounded-[40px]
+  "
+/>
 
             {/* IMAGE OVERLAY */}
             <div className="

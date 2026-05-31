@@ -260,6 +260,18 @@ const BookAppointment = () => {
               <option>
                 Neurological Rehab
               </option>
+              <option>
+                Cervical Pain
+              </option>
+              <option>
+                Post Surgery Therapy
+              </option>
+              <option>
+                Cupping Therapy
+              </option>
+              <option>
+                Others
+              </option>
             </select>
 
             <input

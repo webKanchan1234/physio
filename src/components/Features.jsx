@@ -19,7 +19,7 @@ const features = [
   {
     icon: <Clock3 size={40} />,
     title: "Flexible Timing",
-    desc: "9 AM to 10 PM",
+    desc: "Morning to Saturday",
   },
   {
     icon: <ShieldCheck size={40} />,

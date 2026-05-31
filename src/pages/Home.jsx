@@ -4,7 +4,7 @@ import Services from "../components/Services";
 import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import CTA from "../components/CTA";
-
+import Gallery from "../components/Gallery";
 import MainLayout from "../layouts/MainLayout";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <Features />
 
       <Services />
-
+<Gallery />
       <Team />
 
       <Testimonials />

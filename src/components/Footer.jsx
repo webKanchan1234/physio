@@ -1,4 +1,10 @@
 import logo from "../assets/pt.png";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+} from "lucide-react";
 
 const Footer = () => {
 
@@ -118,6 +124,10 @@ const Footer = () => {
             <li>Back Pain</li>
             <li>Orthopedic Therapy</li>
             <li>Neurological Rehab</li>
+            <li>Cervical Pain</li>
+            <li>⁠Post Surgery Therapy</li>
+            <li>⁠Cupping Therapy</li>
+            <li>Others</li>
 
           </ul>
 
@@ -126,30 +136,119 @@ const Footer = () => {
         {/* CONTACT */}
         <div>
 
-          <h3 className="
-            text-xl
-            font-bold
-          ">
-            Contact
+          <h3 className="text-xl font-bold">
+            Contact Us
           </h3>
 
-          <ul className="
-            mt-6
-            space-y-4
-            text-gray-300
-          ">
+          <div className="mt-6 space-y-5">
 
-            <li>+91 6203136986</li>
+            <div className="flex items-start gap-4">
 
-            <li>
-              dr.yashwantkr@gmail.com
-            </li>
+              <div className="
+        w-8
+        h-8
+        rounded-xl
+        bg-orange-400/20
+        flex
+        items-center
+        justify-center
+      ">
+                <Phone
+                  size={15}
+                  className="text-orange-400"
+                />
+              </div>
 
-            <li>
-              Delhi, Noida, Gurgaon
-            </li>
+              <div>
+                <a
+                  href="tel:+919876543210"
+                  className="text-gray-300 hover:text-orange-400 transition"
+                >
+                  +91 6203 136 986
+                </a>
+              </div>
 
-          </ul>
+            </div>
+
+            <div className="flex items-start gap-4">
+
+              <div className="
+        w-8
+        h-8
+        rounded-xl
+        bg-orange-400/20
+        flex
+        items-center
+        justify-center
+      ">
+                <Mail
+                  size={15}
+                  className="text-orange-400"
+                />
+              </div>
+
+              <div>
+                <a
+                  href="mailto:healingwithphysio@gmail.com"
+                  className="text-gray-300 hover:text-orange-400 transition"
+                >
+                  healingwithphysio@gmail.com
+                </a>
+              </div>
+
+            </div>
+
+            <div className="flex items-start gap-4">
+
+              <div className="
+        w-8
+        h-8
+        rounded-xl
+        bg-orange-400/20
+        flex
+        items-center
+        justify-center
+      ">
+                <MapPin
+                  size={15}
+                  className="text-orange-400"
+                />
+              </div>
+
+              <div>
+                <p className="text-gray-300">
+                  Noida, Delhi, Gurgaon,
+                </p>
+              </div>
+
+            </div>
+
+            <div className="flex items-start gap-4">
+
+              <div className="
+        w-8
+        h-8
+        rounded-xl
+        bg-orange-400/20
+        flex
+        items-center
+        justify-center
+      ">
+                <Clock
+                  size={15}
+                  className="text-orange-400"
+                />
+              </div>
+
+              <div>
+                <p className="text-gray-300">
+                  Mon - Sun : 8:00 AM - 8:00 PM
+                </p>
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
 
