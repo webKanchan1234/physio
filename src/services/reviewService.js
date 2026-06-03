@@ -5,7 +5,7 @@ import axios from "axios";
 
 
 //live
-const API_URL ="https://your-render-service.onrender.com/api/reviews";;
+const API_URL ="https://physio-backend-5j6a.onrender.com/api/reviews";;
 
 export const addReview = async (
   formData
