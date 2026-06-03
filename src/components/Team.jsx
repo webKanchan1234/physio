@@ -10,7 +10,7 @@ const doctors = [
   },
   {
     name: "Dr. Prachi Singh",
-    role: "Cardio Pulmonary Specialist",
+    role: "Physiotherapist",
     image: prachiImage,
   },
 ];
