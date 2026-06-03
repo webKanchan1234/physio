@@ -16,7 +16,7 @@ const Home = () => {
       <Features />
 
       <Services />
-<Gallery />
+      <Gallery />
       <Team />
 
       <Testimonials />

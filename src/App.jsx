@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import BookAppointment from "./pages/BookAppointment";
+import AddReview from "./components/AddReview";
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
         path="/book-appointment"
         element={<BookAppointment />}
       />
+      <Route
+        path="/add-review"
+        element={<AddReview />}
+      />
+      
     </Routes>
   );
 }
