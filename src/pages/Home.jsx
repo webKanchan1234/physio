@@ -6,6 +6,7 @@ import Testimonials from "../components/Testimonials";
 import CTA from "../components/CTA";
 import Gallery from "../components/Gallery";
 import MainLayout from "../layouts/MainLayout";
+import AddReview from "../components/AddReview";
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
       <Team />
 
       <Testimonials />
+
+      <AddReview />
 
       <CTA />
 
