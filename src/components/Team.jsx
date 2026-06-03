@@ -1,13 +1,17 @@
+import heroImage from "../assets/doctor.jpeg";
+// import prachiImage from "../assets/prachi.jpg";
+import prachiImage from "../assets/prachi.png";
+
 const doctors = [
   {
-    name: "Dr. Abdus Samad",
+    name: "Dr. Yashwant Kumar",
     role: "Physiotherapist",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg",
+    image: heroImage,
   },
   {
-    name: "Dr. Mehar Mahfooz",
+    name: "Dr. Prachi Singh",
     role: "Cardio Pulmonary Specialist",
-    image: "https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=640:*",
+    image: prachiImage,
   },
 ];
 

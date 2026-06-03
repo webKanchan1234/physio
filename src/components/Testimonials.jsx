@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getReviews } from "../services/reviewService";
+import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -150,7 +151,24 @@ const Testimonials = () => {
           >
             What Our Patients Say
           </h2>
-
+<div className="text-center mt-8">
+  <Link
+    to="/add-review"
+    className="
+      bg-orange-500
+      hover:bg-orange-600
+      text-white
+      px-8
+      py-4
+      rounded-full
+      font-semibold
+      shadow-lg
+      transition
+    "
+  >
+    Share Your Experience
+  </Link>
+</div>
           <p
             className="
               mt-6

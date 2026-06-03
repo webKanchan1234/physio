@@ -161,7 +161,7 @@ const Footer = () => {
 
               <div>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+916203136986"
                   className="text-gray-300 hover:text-orange-400 transition"
                 >
                   +91 6203 136 986
@@ -189,10 +189,10 @@ const Footer = () => {
 
               <div>
                 <a
-                  href="mailto:healingwithphysio@gmail.com"
+                  href="mailto:dr.yashwantkr@gmail.com"
                   className="text-gray-300 hover:text-orange-400 transition"
                 >
-                  healingwithphysio@gmail.com
+                  dr.yashwantkr@gmail.com
                 </a>
               </div>
 
@@ -242,7 +242,7 @@ const Footer = () => {
 
               <div>
                 <p className="text-gray-300">
-                  Mon - Sun : 8:00 AM - 8:00 PM
+                  Mon to Sat : 9:00 AM - 8:00 PM
                 </p>
               </div>
 
